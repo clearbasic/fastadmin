@@ -26,7 +26,7 @@ class Index extends Backend
      */
     public function index()
     {
-        //
+        
         $menulist = $this->auth->getSidebar([
             'dashboard'  => 'hot',
             'addon'       => ['new', 'red', 'badge'],
